@@ -1,0 +1,19 @@
+{
+  "name": "nodetests",
+  "version": "1.0.0",
+  "description": "Node tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Amory Manuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
